@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import CloseIcon from "@/components/closeIcon";
 import styles from "./drawer.module.css";
 import Link from "next/link";
@@ -22,6 +23,11 @@ const Drawer = ({ isDrawerOpen, toggleDrawer }: props) => {
       isDrawerOpen ? styles.slideUp : styles.slidedown
     }`;
   };
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => (document.body.style.overflow = "unset");
+  }, []);
 
   return (
     <section className={renderClasses()}>
