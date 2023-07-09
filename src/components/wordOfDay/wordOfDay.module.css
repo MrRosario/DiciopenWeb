@@ -1,0 +1,35 @@
+.wordOfDay {
+    background-size: cover;
+    border-radius: var(--border-radius);
+    border: 0.5px solid var(--dim-gray);
+    height: 260px;
+    width: 100%;
+    box-shadow: 0px 2px 5px var(--black);
+}
+.wordOfDay_layer {
+    height: 100%;
+    width: 100%;
+    background-color: var(--transparent);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+.wordOfDay_title {
+    font-size: 28px;
+    font-weight: var( --font-weight-BLACK);
+}
+.wordOfDay_subtitle {
+    font-size: 14px;
+    font-weight: var( --font-weight-THIN);
+}
+.wordOfDay_floating {
+    font-size: 15px;
+    font-weight: var( --font-weight-MEDIUM);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
