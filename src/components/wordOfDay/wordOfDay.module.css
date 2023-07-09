@@ -1,10 +1,11 @@
 .wordOfDay {
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     border-radius: var(--border-radius);
     border: 0.5px solid var(--dim-gray);
     height: 260px;
     width: 100%;
-    box-shadow: 0px 2px 5px var(--black);
 }
 .wordOfDay_layer {
     height: 100%;

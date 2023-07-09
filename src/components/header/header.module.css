@@ -11,6 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    column-gap: 20px;
 }
 .header_icons {
     display: flex;
@@ -19,7 +20,7 @@
 .header_input {
     height: 35px;
     padding: 0 7px;
-    border: var(--border-width-regular) solid var(--dim-gray);
+    border: var(--border-width-regular) solid var(--black);
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: row;
