@@ -10,11 +10,11 @@
     transform: translateY(0);
 }
 .slideUp {
-    animation: slideup .2s ease-in-out;
+    animation: slideup .3s ease-in-out;
 }
   
 .slideDown {
-    animation: slidedown .2s ease-in-out;
+    animation: slidedown .3s ease-in-out;
 }
 
 @keyframes slideup {
