@@ -1,3 +1,5 @@
+This is a PWA, currently it is only optimized for mobile
+
 ## Getting Started
 
 First, run the development server:
